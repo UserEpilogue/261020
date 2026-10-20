@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 · 个人主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site">
+
+    <!-- 头部介绍 -->
+    <header class="hero">
+      <p class="eyebrow">你好，我是</p >
+      <h1>你的名字</h1>
+      <p class="intro">
+        这里写一句简短的自我介绍，比如：前端学习者 / 设计爱好者 / 正在搭建自己的第一个网站。
+      </p >
+      <a class="button" href=" ">联系我</a >
+    </header>
+
+    <main>
+      <!-- 技能 / 标签 -->
+      <section class="section">
+        <h2>我正在学习</h2>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>GitHub Pages</span>
+        </div>
+      </section>
+
+      <!-- 卡片区域 -->
+      <section class="section">
+        <h2>一些小事</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>关于我</h3>
+            <p>可以放一两句话介绍你的背景、兴趣，或者目前在做的事情。</p >
+          </article>
+          <article class="card">
+            <h3>我的项目</h3>
+            <p>列出你做过的小项目、练习作品，或者正在折腾的东西。</p >
+          </article>
+          <article class="card">
+            <h3>联系方式</h3>
+            <p>邮箱、GitHub 或其他社交账号，方便别人找到你。</p >
+          </article>
+        </div>
+      </section>
+
+      <!-- 联系表单（仅演示） -->
+      <section class="section" id="contact">
+        <h2>留下邮箱</h2>
+        <p class="muted">这个表单只做前端校验，不会真的发送邮件，用来占位即可。</p >
+        <form id="contactForm">
+          <input type="email" id="email" placeholder="输入你的邮箱" required>
+          <button class="button" type="submit">提交</button>
+          <p id="notice" class="notice"></p >
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 你的名字 · 用 GitHub Pages 托管</p >
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
